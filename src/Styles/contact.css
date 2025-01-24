@@ -1,0 +1,56 @@
+/* Contact section styling */
+.contact {
+    color: white; /* Ensure text is visible */
+    text-align: center; /* Center-align the content */
+    padding: 50px 20px; /* Add padding for spacing */
+  }
+  
+  .contact_container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    padding: 40px; /* Inner padding */
+  }
+  
+  .contact_head {
+    font-size: 2.5rem; /* Large heading */
+    color: blue; /* Highlight the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    animation: glowAndShrink 1s ease-out; /* Add animation (reuse from previous styles) */
+  }
+  
+  .contact p {
+    font-size: 1.2rem; /* Make text readable */
+    line-height: 1.6; /* Space between lines */
+    margin-bottom: 10px; /* Space between paragraphs */
+  }
+  
+  .contact a {
+    color: aqua; /* Make links stand out */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .contact a:hover {
+    color: #00bcd4; /* Brighter cyan on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact {
+      padding: 30px 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .contact_container {
+      padding: 20px; /* Reduce inner padding */
+    }
+  
+    .contact_head {
+      font-size: 2rem; /* Reduce heading size */
+    }
+  
+    .contact p {
+      font-size: 1rem; /* Adjust text size for readability */
+    }
+  }
+  

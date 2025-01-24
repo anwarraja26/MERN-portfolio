@@ -1,0 +1,24 @@
+.footer {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 210px;
+    background-image: linear-gradient(rgba(12, 15, 21, 0.7), rgba(174, 174, 209, 0.7));
+  }
+  
+  .footer h1 {
+    margin-bottom: 15px;
+
+    padding-top: 40px;
+    font-weight: 600;
+    color: black;
+  }
+  .footer p{
+    text-align: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  

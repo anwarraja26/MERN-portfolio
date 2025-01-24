@@ -1,0 +1,9 @@
+body {
+    background-color: #000729;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    background-repeat: repeat; /* Ensure the texture repeats across the body */
+    margin: 0; /* Remove default margin around the page */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    color: #fff; /* Set the text color to white for better contrast */
+  }
+  

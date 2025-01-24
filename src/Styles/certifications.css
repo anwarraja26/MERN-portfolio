@@ -1,0 +1,47 @@
+/* General Section Styling */
+.certificate {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: blue;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Heading Styling */
+.certification_head {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* List Styling for Certificates */
+.certification_list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into the next line */
+  justify-content: center; /* Center the items horizontally */
+  padding: 0;
+  list-style-type: none;
+}
+
+.certification_list li {
+  display: flex;
+  flex-direction: column; /* Align the image and text vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 30px;
+  width: 250px; /* Control the width of each certificate item */
+}
+
+/* Styling for the Certificate Images */
+.certificate_image {
+  max-width: 200px;
+  height: auto;
+  margin-top:250px;
+  margin-bottom: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}

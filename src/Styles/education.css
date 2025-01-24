@@ -1,0 +1,36 @@
+.education {
+    padding: 5px 0;
+    background-color: rgb(8, 9, 10);
+  }
+  
+  .education h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #2196F3;
+  }
+  
