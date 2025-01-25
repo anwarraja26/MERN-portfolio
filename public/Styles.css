@@ -1,0 +1,90 @@
+body {
+  background-color: #000729;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+  margin: 0; /* Ensure no default margin around the page */
+  font-family: Arial, sans-serif; /* Set a clean font */
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0; /* Remove default margin */
+  padding: 10px 20px; /* Add padding to the header */
+  position: absolute; /* Position within the parent container */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+  display: flex; /* Use flexbox for horizontal layout */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  border-radius: 10px; /* Rounded corners for a smoother design */
+}
+
+li {
+  margin: 0 20px; /* Add space between list items */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* Set link color to white */
+  font-size: 1.2rem; /* Make the text larger */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #00bcd4; /* Change color on hover to cyan for better visibility */
+}
+
+/* Ensure body content doesn’t overlap with the header */
+div {
+  margin-top: 60px; /* Add spacing for content below the header */
+}
+
+.home-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Center align the content vertically */
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+}
+
+.text-content {
+  flex: 1; /* Take up remaining space on the left */
+  color: white; /* Ensure visibility on your background */
+  font-size: 2rem;
+  text-align: left; /* Align text to the left */
+  line-height: 1.5; /* Increase readability */
+}
+
+.text-content h1 {
+  margin: 0;
+  font-weight: bold; /* Make the text bold */
+}
+
+.image-content {
+  flex: 0; /* Prevent image from stretching */
+  display: flex;
+  justify-content: center;
+}
+
+.image-content img {
+  width: 450px; /* Adjust the size of the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-right: 18px; /* Add spacing from the right edge */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack text and image on small screens */
+    text-align: center; /* Center the text */
+  }
+
+  .image-content img {
+    width: 100%; /* Make the image responsive */
+    max-width: 350px; /* Limit the maximum width */
+    margin-right: 0; /* Remove margin */
+  }
+}
+
+
+

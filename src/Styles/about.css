@@ -1,0 +1,32 @@
+.aboutme {
+  display: flex; /* Enables Flexbox */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  height: 100vh; /* Makes the section take full viewport height */
+}
+
+.div_aboutme {
+  width: 550px;
+  height: auto; /* Adjusts the height dynamically based on content */
+  padding: 20px; /* Adds some spacing inside the container */
+  border-radius: 10px; /* Optional: Rounds the corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+}
+
+.aboutme_head {
+  color: blue;
+  font-size: 30px;
+  margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+.aboutme_para {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5; /* Increases readability with better line spacing */
+  text-align: justify; /* Optional: Makes the paragraph text justified */
+}
+
+hr#line {
+  margin-top: 20px;
+  border: 1px solid blue;
+}
