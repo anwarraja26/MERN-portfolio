@@ -1,1 +1,1 @@
-# MERN-portfolio
+# MERN-INTERN-portfolio
